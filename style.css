@@ -61,3 +61,13 @@ body{
   padding: 16px 26px;
   cursor: pointer;
 }
+
+@media (max-width: 480px) {
+  button {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
